@@ -1,0 +1,75 @@
+$primaryColor: #777;
+$backgroundColor: #fff;
+
+#quote-box {
+  $widthpx: 400px;
+  width: $widthpx;
+  height: fit-content;
+  min-height: $widthpx * 0.5;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: $primaryColor;
+  background-color: #fff;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+#text {
+	padding: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 120%;
+}
+
+#author {
+	margin-left: 20px;
+	margin-right: auto;
+	padding-bottom: 0px;
+	margin-bottom: auto;
+	font-size: 100%;
+}
+
+#buttons {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#new-quote {
+  margin-right: 20px;
+  background-color: $primaryColor;
+  color: $backgroundColor;
+  border: none;
+  border-radius: 3%;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#tweet-quote {
+  background-color: $primaryColor;
+  text-decoration: none;
+  color: $backgroundColor;
+  border: none;
+  border-radius: 3%;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#credit {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0.8em;
+  font-style: italic;
+}
