@@ -39,7 +39,7 @@ class Card extends React.Component<{}, {quote: string, author: string}> {
         <h2 id='author'>-{this.state.author}</h2> 
         <div id='buttons'>
           <button onClick={this.updateQuote} id='new-quote'>New Quote</button>
-          <a id='tweet-quote' target='_blank' href='twitter.com/intent/tweet'>Tweet Quote</a>
+          <a id='tweet-quote' target='_blank' href='https://twitter.com/intent/tweet'>Tweet Quote</a>
         </div>
         <p id="credit">Credit to Zen Quotes for providing the quotes</p>
       </div>
