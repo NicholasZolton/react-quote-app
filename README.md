@@ -1,5 +1,7 @@
 # Welcome to the React Quote App
 
+If you're looking to just view the webpage, go to the active Github Page on the right-hand side of the repository!
+
 ## Available Scripts
 
 In the project directory, you can run:
